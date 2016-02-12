@@ -1,0 +1,16 @@
+{
+  "name": "samsara-guides",
+  "version": "0.2.0",
+  "description": "High level guides to SamsaraJS",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "replace" : "sed -i '' 's/DOMContentLoaded/load/' _docpress/assets/script.js"
+  },
+  "author": "David <dmvaldman@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "docpress": "^0.6.11"
+  }
+}

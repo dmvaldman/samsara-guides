@@ -1,0 +1,11 @@
+{
+  "docs": "src/guides",
+  "github": "dmvaldman/samsara",
+  "googleAnalytics": {
+    "id": "UA-68066515-1",
+    "domain": "samsarajs.org"
+  },
+  "css": [
+    "custom.css"
+  ]
+}
