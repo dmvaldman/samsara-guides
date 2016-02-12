@@ -2,7 +2,7 @@ Thus far we've been hearing about the concept of streams in terms of [Transition
 We have yet to precisely describe what we mean by a stream. In Samsara, 
 
 * A [**stream**](http://samsarajs.org/reference_docs/classes/Streams.Stream.html) is an `EventEmitter` that emits 
-`start`, `update` and `end` events, where where zero or more `update` events come between a `start` and an `end` event.
+`start`, `update` and `end` events, where zero or more `update` events come between a `start` and an `end` event.
 
 That's it really. But when taken from this abstract viewpoint streams are a powerful concept to describe animation, and more generally
 anything that changes over time. For example, the entire render tree is also a stream: the request animation frame loop
