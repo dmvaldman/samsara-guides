@@ -104,7 +104,7 @@ the node relative to the parent size.
 `Transform.translate([w * x, h * y])`.
 
 * An origin value of `[x,y]` will produce a translation of `[-w * x', -h * y']`, and is a shorthand for 
-`Transform.translate([-w * x', -h * y'])`.
+`Transform.translate([-w' * x', -h' * y'])`.
 
 It may be easier to think of alignment as aligning the origin point. Hence to center
 the top left of a `Surface` all that is needed is to align it with `[.5, .5]` (as the origin defaults to top left). 
